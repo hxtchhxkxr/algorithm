@@ -1,9 +1,7 @@
 #include <iostream>
-#include <utility>
 using namespace std;
-using ll = long long;
 
-ll visit(int n, int r, int c) {
+int visit(int n, int r, int c) {
 	// base conditon
 	if (r == 0 && c == 0) return 0;
 
