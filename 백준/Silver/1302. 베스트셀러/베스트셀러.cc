@@ -21,9 +21,6 @@ int main() {
 			max = cur.second;
 			result = cur.first;
 		}
-		else if (cur.second == max && cur.first < result) {
-			result = cur.first;
-		}
 	}
 
 	cout << result;
